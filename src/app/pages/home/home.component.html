@@ -1,0 +1,7 @@
+<div class="container">
+  <app-search (searchCity)="onSearch($event)"></app-search>
+
+  <div *ngIf="weatherData" class="weather-result">
+    <app-weather-card [data]="weatherData"></app-weather-card>
+  </div>
+</div>

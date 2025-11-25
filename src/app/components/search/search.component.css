@@ -1,0 +1,23 @@
+.search-box {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  padding: 8px 12px;
+  width: 250px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 18px;
+  background: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #005bbb;
+}

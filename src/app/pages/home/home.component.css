@@ -1,0 +1,10 @@
+.container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-result {
+  margin-top: 30px;
+}
